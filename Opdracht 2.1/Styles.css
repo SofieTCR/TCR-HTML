@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(80, 124, 129);
+}
+h1 {
+    text-align: center;
+    color: rgb(123, 62, 177);
+}
+h3 {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+p{
+    width: 250px;
+    margin-left: 825px;
+    text-align: center;
+    font-size: larger;
+}
+img {
+    margin-top: -150px;
+    margin-left: 1100px;
+    width: 150px;
+}
+
