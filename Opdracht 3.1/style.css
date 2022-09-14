@@ -1,11 +1,14 @@
+/*
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
 }
+*/
 body {
   font-family: "Goldman", cursive;
 }
@@ -36,4 +39,21 @@ nav a {
 }
 nav img {
   width: 5vw;
+}
+
+/* New Code */
+.tekst
+
+{
+font-size: 24px;  
+font-family: Verdana;
+list-style-type: circle;
+
+}
+
+.tekst2
+
+{
+font-size: 24px;  
+font-family: Verdana;
 }
