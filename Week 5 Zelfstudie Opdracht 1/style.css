@@ -1,0 +1,33 @@
+#Vlak1
+{
+    background-color: gray;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+}
+#Vlak2
+{
+    background-color: green;
+    width: 2em;
+    height: 2em;
+    position: absolute;
+}
+#Vlak3
+{
+    background-color: green;
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    font-size: 32px;
+}
+#Vlak4
+{
+    background-color: blue;
+    width: 37.8px;
+    height: 37.8px;
+    position: absolute;
+}
+span
+{
+    font-weight: bold;
+}
