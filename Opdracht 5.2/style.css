@@ -151,8 +151,8 @@ nav img {
 }
 .DropDown:hover
 {
-  height: 10vh;
-  margin-top: 0px;
+  height: 5vh;
+  margin-top: 10px;
   margin-bottom: 0px;
   background-color: #E9E9E9;
 }
