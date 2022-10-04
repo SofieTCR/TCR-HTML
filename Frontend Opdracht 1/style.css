@@ -1,4 +1,5 @@
-body
+/* Element Targeting */
+*
 {
     padding: 0px;
     margin: 0px;
@@ -9,6 +10,26 @@ nav
     height: 6.34vh;
     background-color: #006445;
 }
+nav ul
+{
+    display: inline-flex;
+    list-style-type: none;
+}
+/* Nav Bar */
+ul
+{
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    height: 100%;
+}
+li
+{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    align-items: center;
+}
 #MainNavContainer
 {
     width: 100%;
@@ -17,30 +38,31 @@ nav
     position: relative;
     display: inline-block;
 }
-nav ul
-{
-    display: inline-flex;
-    list-style-type: none;
-}
 #MainNavLogo
 {
+    float: left;
     padding: 10px;
-    background-color: white;
+    background-color: black;
 }
 .MainNavLinks
 {
     font-weight: 700;
     color: white;
-    display: flex;
 }
-nav ul li
-{}
-#Body
+#RightMenuDiv
+{
+    background-color: #005C40;
+    width: 23vw;
+    height: 10vh;
+}
+/* Main Frame */
+#MainFrame
 {
     width: 100vw;
     height: 62.98vh;
     background-color: #004630;
 }
+/* Footer */
 footer
 {
     width: 100vw;
