@@ -31,7 +31,7 @@ nav
     font-family: refrigerator-deluxe,sans-serif;
     font-weight: 800;
     text-transform: uppercase;
-    font-size: 390%;
+    font-size: 360%;
     line-height: .92;
 }
 /* Nav Bar */
@@ -120,11 +120,36 @@ nav
 {
     width: 15vw;
     height: 45vh;
-    background-color: black;
 }
 .MainFrameDivHalf
 {
     width: 8.5vw;
+}
+#MainFrameDiv1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#LeftFrameTop
+{
+    width: 200%;
+    z-index: 2;
+}
+#LeftFrameBottom
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.LeftFrameBottomContent
+{
+    width: 15vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 #MainFrameDiv2
 {
