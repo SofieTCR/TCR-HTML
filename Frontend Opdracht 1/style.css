@@ -9,51 +9,81 @@ nav
     width: 100vw;
     height: 6.34vh;
     background-color: #006445;
+    display: flex;
+    justify-content: center;
 }
-nav ul
+.ColorWhite
 {
-    display: inline-flex;
-    list-style-type: none;
+    color: white;
 }
-/* Nav Bar */
-ul
+.ColorDarkGreen
 {
-    margin: 0px;
-    padding: 0px;
-    float: left;
-    height: 100%;
-}
-li
-{
-    margin: 0px;
-    padding: 0px;
-    height: 100%;
-    align-items: center;
-}
-#MainNavContainer
-{
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    position: relative;
-    display: inline-block;
-}
-#MainNavLogo
-{
-    float: left;
-    padding: 10px;
-    background-color: black;
+    color: #0F2B22;
 }
 .MainNavLinks
 {
     font-weight: 700;
-    color: white;
+    font-size: 90%;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+.MainHeaders
+{
+    font-family: refrigerator-deluxe,sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 390%;
+    line-height: .92;
+}
+/* Nav Bar */
+#MainNavContainer
+{
+    /* background-color: black; */
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#MainNavLogo
+{
+    float: left;
+    padding: 1vh;
+    height: 4.34vh;
+    background-color: white;
+}
+
+.navSpacer
+{
+    width: 6vw;
 }
 #RightMenuDiv
 {
     background-color: #005C40;
     width: 23vw;
-    height: 10vh;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.IconImg
+{
+    height: 3vh;
+}
+.RightMenuContentDiv
+{
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#AanmeldButton
+{
+    height: 4vh;
+    width: 15vh;
+    background-color: #DBFF4A;
+    border-radius: 6px;
+    flex-direction: row;
 }
 /* Main Frame */
 #MainFrame
@@ -61,6 +91,52 @@ li
     width: 100vw;
     height: 62.98vh;
     background-color: #004630;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.MainSpacer
+{
+    width: 2vw;
+    height: 2vh;
+}
+#MainItemDiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+#MainArrowDiv
+{
+    width: 42.5vw;
+    /* height: 10vh;
+    background-color: black; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.MainFrameDiv
+{
+    width: 15vw;
+    height: 45vh;
+    background-color: black;
+}
+.MainFrameDivHalf
+{
+    width: 8.5vw;
+}
+#MainFrameDiv2
+{
+    background-image: url(/img/Foto1.jpg);
+    background-size: cover;
+    background-position: -9.2vw;
+}
+#MainFrameDiv3
+{
+    background-image: url(/img/Foto2.jpg);
+    background-size: cover;
+    background-position: -1.2vw;
 }
 /* Footer */
 footer
@@ -68,4 +144,22 @@ footer
     width: 100vw;
     height: 30.68vh;
     background-color: #0F2B22;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#InternalFooterDiv
+{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    /* background-color: black; */
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+#SmallFooterHeading
+{
+    font-size: 150%;
+    color:  #DBFF4A;;
 }
