@@ -16,10 +16,15 @@ nav
 {
     color: white;
 }
+.ColorLime
+{
+    color: #DBFF4A;
+}
 .ColorDarkGreen
 {
     color: #0F2B22;
 }
+
 .MainNavLinks
 {
     font-weight: 700;
@@ -32,7 +37,11 @@ nav
     font-weight: 800;
     text-transform: uppercase;
     font-size: 360%;
-    line-height: .92;
+    line-height: 1.1;
+}
+.NormalSize
+{
+    font-size: 110%;
 }
 /* Nav Bar */
 #MainNavContainer
@@ -145,23 +154,62 @@ nav
 }
 .LeftFrameBottomContent
 {
-    width: 15vw;
-    background-color: black;
+    margin-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 6px;
+    width: 13vw;
+    height: 4vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+.LeftFrameBottomLinks
+{
+    margin-bottom: 0.4vh;
+    background-color: transparent;
+    justify-content: flex-start;
+}
+.PaddingLeft
+{
+    padding-left: 1vw;
+}
+#LeftFrameButton1
+{
+    background-color: #DBFF4A;
+}
+#LeftFrameButton2
+{
+    background-color: #0F2B22;
 }
 #MainFrameDiv2
 {
-    background-image: url(/img/Foto1.jpg);
+    padding: 1vw;
+    background:linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,0.9)), url(/img/Foto1.jpg);
+    /* background-image: url(/img/Foto1.jpg); */
     background-size: cover;
     background-position: -9.2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 #MainFrameDiv3
 {
-    background-image: url(/img/Foto2.jpg);
+    padding: 1vw;
+    background:linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,0.9)), url(/img/Foto2.jpg);
+    /* background-image: url(/img/Foto2.jpg); */
     background-size: cover;
-    background-position: -1.2vw;
+    background-position: -1.2vw;    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    overflow: hidden;
+}
+#LastFrameHeading
+{
+    width: 15vw;
 }
 /* Footer */
 footer
@@ -181,10 +229,17 @@ footer
     /* background-color: black; */
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+}
+#InternalFooterDiv2
+{
+    display: flex;
+    /* background-color: black; */
+    flex-direction: column;
+    justify-content: space-around;
     align-items: flex-start;
 }
 #SmallFooterHeading
 {
-    font-size: 150%;
     color:  #DBFF4A;;
 }
