@@ -1,0 +1,40 @@
+:root {
+    --main-color: #4c6e97;
+    --accent-color: #131c27;
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+/* General Page CSS */
+.White-Font
+{
+    color: white;
+}
+.Small-Font
+{
+    font-size: 16px;
+}
+/* Nav Bar CSS */
+nav
+{
+    height: 10vh;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--accent-color);
+}
+
+#testp
+{
+    font-family: 'Poppins', sans-serif;
+}
+#testp2
+{
+    font-family: 'Pattaya', sans-serif;
+}
