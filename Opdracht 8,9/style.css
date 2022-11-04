@@ -239,3 +239,44 @@ footer
     display: flex;
     justify-content: space-evenly;
 }
+/* Mobile */
+@media only screen and (max-width: 576px)  {
+    nav
+    {
+        flex-direction: column;
+    }
+    #NavLogoDiv
+    {
+        justify-content: center;
+        align-items: center;
+    }
+    #TextSectionWhiteDiv
+    {
+        flex-direction: column;
+    }
+    .TextSectionCards
+    {
+        width: 80vw;
+    }
+    .TextSectionCardsBar
+    {
+        width: 80vw;
+    }
+    #ContactDiv
+    {
+        width: 80vw;
+    }
+    #ContactSubmit
+    {
+        width: 80vw;
+    }
+    footer
+    {
+        flex-direction: column;
+    }
+    #FooterLogoDiv
+    {
+        justify-content: center;
+        align-items: center;
+    }
+}
