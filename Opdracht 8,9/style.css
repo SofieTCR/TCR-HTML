@@ -186,4 +186,56 @@ nav
     background-repeat: no-repeat;
     background-size: 100vw;
     background-color: #9a9a9a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ContactDiv
+{
+    width: 50vw;
+    height: 55vh;
+    background-color: rgba(19, 28, 39, 0.8);
+    border-radius: 20px;
+}
+#ContactForm
+{   
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ContactInput
+{
+    height: 2em;
+}
+#ContactSubmit
+{
+    height: 8vh;
+    width: 50vw;
+    background-color: var(--main-color);
+    position: relative;
+    top: 6vh;
+    border: none;
+}
+/* Footer */
+footer
+{
+    background-color: var(--accent-color);
+    height: 12vh;
+    width: 100vw;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#FooterLogoDiv
+{
+    width: 50vw;
+    display: flex;
+}
+#FooterSocialDiv
+{
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
 }
