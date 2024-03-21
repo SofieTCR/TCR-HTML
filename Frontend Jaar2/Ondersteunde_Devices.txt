@@ -1,0 +1,5 @@
+Voor mijn portfolio website heb ik besloten om de volgende apparaten te ondersteunen:
+Desktops
+Tablets (Horizontaal)
+Tablets & E-Readers (Verticaal)
+Telefoons (Verticaal)
