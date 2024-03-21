@@ -46,12 +46,7 @@ body {
     }
 }
 
-#PortfolioBackgroundImageDiv::after {
-    content: attr(alt);
-    display: none;
-}
-
-#line {
+.line {
     margin-top: 5px;
     border-top: 4px dashed black;
 }
@@ -60,10 +55,11 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 5vh;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
 
     article {
-        width: 12vw;
+        width: 225px;
         height: 12vh;
         background-color: #D9D9D9;
         border-radius: 35px;
@@ -80,16 +76,41 @@ body {
     }
 }
 
+#PortfolioBackgroundInfo
+{
+    margin-top: 2.5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    article {
+        width: 250px;
+        min-height: 12vh;
+        background-color: #D9D9D9;
+        border-radius: 35px;
+        border: 4px solid #727272;
+        padding: 4vh 2vw;
+    }
+}
+
 footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 64  px;
+    min-height: 64px;
     background-color: #2F2F2F;
     margin-top: 5vh;
     p {
         color: white;
         font-weight: 600;
+    }
+    a {
+        color: white;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    a:hover {
+        color: lightgray;
     }
 
     #PortfolioLinks {
@@ -97,15 +118,8 @@ footer {
         justify-content: flex-start;
         align-items: center;
         a {
-            text-decoration: underline;
-            color: white;
             margin-right: 20px;
-            margin-left: 5px;;
-            font-weight: 600;
-        }
-        a:hover {
-            color: lightgray;
-
+            margin-left: 5px;
         }
         img {
             height: 28px;
