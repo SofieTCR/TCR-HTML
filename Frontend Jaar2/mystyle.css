@@ -121,40 +121,69 @@ footer #PortfolioLinks img {
   width: 28px;
 }
 
-/* Tablet Mode */
+/* Landscape Tablet Mode */
 @media screen and (max-width: 1026px) {
-  #PortfolioBackgroundImageDiv article {
-    width: 300px;
-  }
   #PortfolioInfoBlocks {
-    /* display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 2.5vh;
-    margin-bottom: 2.5vh; */
-    display: flex;
-    flex-wrap: wrap;
     justify-content: flex-start;
     align-content: flex-start;
+    margin: -400px 0 0;
+    height: 340px;
+    padding: 30px;
   }
   #PortfolioInfoBlocks article {
-    width: 150px;
-    height: 80px;
+    width: 125px;
+    height: 60px;
     font-size: 1em;
   }
   #PortfolioInfoBlocks article:nth-child(1) {
-    position: absolute;
+    position: relative;
     left: 0px;
     top: 0px;
   }
   #PortfolioInfoBlocks article:nth-child(2) {
-    position: absolute;
-    left: 80px;
+    position: relative;
+    left: -50px;
     top: 80px;
   }
   #PortfolioInfoBlocks article:nth-child(3) {
-    position: absolute;
-    left: 160px;
+    position: relative;
+    left: -100px;
+    top: 160px;
+  }
+  .line:first-of-type {
+    display: none;
+  }
+  .line:nth-of-type(2) {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 769px) {
+  #PortfolioInfoBlocks {
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin: -400px 0 0;
+    height: 340px;
+    padding: 30px;
+  }
+  #PortfolioInfoBlocks article {
+    width: 125px;
+    height: 60px;
+    font-size: 1em;
+  }
+  #PortfolioInfoBlocks article:nth-child(1) {
+    position: relative;
+    left: 0px;
+    top: 0px;
+  }
+  #PortfolioInfoBlocks article:nth-child(2) {
+    position: relative;
+    left: 50px;
+    top: 80px;
+  }
+  #PortfolioInfoBlocks article:nth-child(3) {
+    position: relative;
+    left: 100px;
     top: 160px;
   }
 }/*# sourceMappingURL=mystyle.css.map */
