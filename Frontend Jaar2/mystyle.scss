@@ -151,15 +151,16 @@ footer {
             width: 150px;
             height: 80px;
             font-size: 1em;
-            position: relative;
+            @for $i from 1 through 3 {
+                // Apply styles to each child element
+                &:nth-child(#{$i}) {
+                  position: absolute;
+                  left: ($i - 1) * 80px; // Increment left position for each child
+                  top: ($i - 1) * 80px;  // Increment top position for each child
+                }
+            }
         }
 
-        article:nth-child(odd) {
-            transform: translateY(50px);
-        }
-    
-        article:nth-child(even) {
-            transform: translateX(-10px);
-        }
+        
     }
 }
