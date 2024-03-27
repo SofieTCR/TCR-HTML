@@ -66,9 +66,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2em;
+  font-size: 1.5em;
 }
-#PortfolioInfoBlocks article h1 {
+#PortfolioInfoBlocks article h2 {
   text-align: center;
 }
 
